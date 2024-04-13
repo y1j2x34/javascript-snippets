@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "strict": true,
+        "strictNullChecks": true,
+        "alwaysStrict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["examples", "./*.ts", "./main"]
+}

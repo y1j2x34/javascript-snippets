@@ -1,0 +1,46 @@
+Arguments: 
+  /home/jianxin_yang/.nvm/versions/node/v18.16.0/bin/node /home/jianxin_yang/.nvm/versions/node/v18.16.0/bin/yarn add -D rollup rollup-typescript-preset @rollup-extras/plugin-serve @rollup/plugin-html
+
+PATH: 
+  /home/jianxin_yang/software/doxygen/bin/:/home/jianxin_yang/.local/share/zinit/polaris/bin:/home/jianxin_yang/.nvm/versions/node/v18.16.0/bin:/home/jianxin_yang/software/doxygen/bin/:/home/jianxin_yang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/opt/rocm-6.0.2/bin:/opt/rocm-6.0.2/hip/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/rocm/bin:/opt/rocm/rocprofiler/bin:/opt/rocm/opencl/bin:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npmjs.org/rollup-typescript-preset: Not found
+      at params.callback [as _callback] (/home/jianxin_yang/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/jianxin_yang/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/jianxin_yang/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/jianxin_yang/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "javascript-snippets",
+    "version": "1.0.0",
+    "description": "Short, useful JavaScript code snippets",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
